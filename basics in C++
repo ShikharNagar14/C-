@@ -1,0 +1,31 @@
+// #include<iostream>
+// using namespace std;
+// int main(){
+//   cout <<"Shikhar";
+//   return 0;
+// }
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//   cout<<"Hello\n"; // it does not add new line at the end so, we can insert new line using \n .
+//   cout<<"Shikhar" << endl; // another way of adding new line is using endl .
+//   cout<<"Nagar";
+//   return 0;
+// }
+
+// Creating a simple calculator in C++
+ 
+ #include<iostream>
+ using namespace std;
+ int main(){
+  int a,b;
+  int sum;
+  cout<<"Enter first number\n";
+  cin>>a;
+   cout<<"Enter second number\n";
+   cin>>b;
+ sum=a+b;
+  cout<<"The sumof two numbers is "<<sum;
+
+ }
